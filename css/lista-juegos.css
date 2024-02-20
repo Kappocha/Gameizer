@@ -1,0 +1,43 @@
+/* Estilos para las listas horizontales */
+.content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Cambia el comportamiento para mostrar en línea */
+}
+
+.content ul li {
+  padding: 10px 20px; /* Espaciado entre elementos */
+  border: 1px solid #ccc; /* Borde alrededor de cada elemento */
+  margin-right: 10px; /* Espacio entre elementos */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #4CAF50; /* Cambio del color de fondo a verde */
+    text-align: center; /* Centra los elementos de la barra de navegación */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block; /* Los elementos de la lista se muestran en línea */
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Ajuste de espaciado en los botones */
+}
+
+.navbar ul li a:hover {
+    background-color: #45a049; /* Cambio de color de fondo al pasar el mouse */
+}
