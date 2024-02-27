@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Sugerencias</title>
-    <link rel="stylesheet" href="./../css/styles.css">
+    <title>Formulario de Sugerencias</title>
+    <script src="https://kit.fontawesome.com/fb5e1528c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./../css/sugerencias.css">
 </head>
 
 <body>
@@ -15,44 +16,28 @@
             <li><a href="lista-juegos.html" id="lista-juegos">Lista Juegos</a></li>
             <li><a href="#">Contacto</a></li>
             <li><a href="sugerencias.html">Sugerencias</a></li>
+            <li><a href="#"><span class="icon"><i class="fa-solid fa-user" aria-hidden="true"></i></span></a></li>
         </ul>
     </nav>
 
-    <!-- Desplegable Categoria 1 -->
-    <div class="category-dropdown">
-        <label for="categoria1">Quiero pescar un tronco lanzarlo e irme a la csm:</label>
-        <select id="categoria1">
-            <option value="accion">Como Tao</option>
-            <option value="aventura">Pai</option>
-            <option value="estrategia">Pai</option>
-            <!-- Agregar más categorías si es necesario -->
-        </select>
-    </div>
-
-    <!-- Desplegable Categoria 2 -->
-    <div class="category-dropdown">
-        <label for="categoria2">Categoria 2:</label>
-        <select id="categoria2">
-            <option value="deportes">Deportes</option>
-            <option value="puzzle">Puzzle</option>
-            <option value="carreras">Carreras</option>
-            <!-- Agregar más categorías si es necesario -->
-        </select>
-    </div>
-
-    <!-- Botón Juego Random -->
-    <div class="random-button-container">
-        <button class="random-button">Juego Random</button>
-    </div>
-
-    <!-- Imagen 1 -->
-    <div class="image-container">
-        <img src="imagen1.jpg" alt="Imagen 1">
-    </div>
-
-    <!-- Imagen 2 -->
-    <div class="image-container">
-        <img src="imagen2.jpg" alt="Imagen 2">
+    <!-- Formulario de Sugerencias -->
+    <div class="suggestion-form">
+        <h2>Formulario de Sugerencias</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="sugerencia">Sugerencia:</label>
+                <textarea id="sugerencia" name="sugerencia" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar Sugerencia</button>
+        </form>
     </div>
 
     <!-- Contenido de la página -->
