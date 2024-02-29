@@ -1,0 +1,27 @@
+.container {
+    width: 80%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.container ol {
+    margin-left: 180px;
+}
+
+#contacto {
+    height: 80px; 
+    width: 280px;
+    margin-left: 12%;
+    padding-bottom: 1%;
+}
+
+input[type="text"], input[type="email"] {
+    width: 40%;
+    height: 30px;
+}
+
+textarea {
+    width: 40%;
+    height: 200px;
+}
+

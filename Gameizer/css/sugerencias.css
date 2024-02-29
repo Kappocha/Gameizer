@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #4CAF50; /* Color de fondo verde */
+    text-align: center; /* Alineación centrada de los elementos */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+.navbar ul {
+    list-style-type: none; /* Elimina los estilos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block; /* Muestra los elementos en línea */
+    margin-right: 20px; /* Espaciado derecho entre elementos */
+}
+
+.navbar ul li .icon {
+    margin-left: auto; /* Mover el icono a la derecha */
+}
+
+.navbar ul li a {
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Elimina subrayado de enlaces */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.navbar ul li a:hover {
+    background-color: #45a049; /* Cambio de color de fondo al pasar el mouse */
+}
+
+/* Estilos para el formulario de sugerencias */
+.suggestion-form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Margen superior e inferior, centrado horizontal */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.suggestion-form h2 {
+    text-align: center; /* Alineación centrada */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.form-group label {
+    display: block; /* Muestra el texto en bloque */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%; /* Ancho completo */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.form-group textarea {
+    resize: vertical; /* Permitir la redimensión vertical */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor apuntador */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Cambio de color de fondo al pasar el mouse */
+}
+
+/* Estilos para el contenido */
+.content {
+    margin-top: 20px; /* Margen superior */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
