@@ -5,6 +5,25 @@ body {
     padding: 0;
 }
 
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+}
+
+/* Estilos para el contenedor de las imágenes */
+.image-container {
+    width: auto; /* Ancho de las imágenes */
+    margin-top: 20px;
+}
+
+/* Estilos para el contenedor de los elementos principales */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Estilos para la barra de navegación */
 .navbar {
     background-color: #4CAF50; /* Cambio del color de fondo a verde */
@@ -33,13 +52,7 @@ body {
     background-color: #45a049; /* Cambio de color de fondo al pasar el mouse */
 }
 
-
-
 /* Estilos para los desplegables */
-.category-dropdown {
-    margin-top: 20px;
-}
-
 .category-dropdown select {
     padding: 8px;
     border: 1px solid #ccc;
@@ -47,7 +60,8 @@ body {
 }
 
 /* Estilos para el botón "Juego Random" */
-.random-button-container {
+.random-button-container,
+.category-dropdown {
     margin-top: 20px;
 }
 
@@ -62,17 +76,6 @@ body {
 
 .random-button:hover {
     background-color: #45a049;
-}
-
-/* Estilos para las imágenes */
-.image-container {
-    margin-top: 20px;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
 }
 
 /* Estilos para el contenido */
