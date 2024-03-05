@@ -5,61 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio</title>
-    <link rel="stylesheet" href="./../css/lista-juegos.css">
+    <link rel="stylesheet" href="./../css/styles.css">
+    <link rel="stylesheet" href="./../css/contacto.css">
     <link rel="stylesheet" href="./../css/login.css">
-    <link rel="stylesheet" href="./../css/index.css">
+    
 </head>
 
 <body>
     <nav class="navbar">
-        <ul>
+    <div>
+        <ul> <li><img src="../assets/logo.png" id="logo"> </li>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="#" id="lista-juegos">Lista Juegos</a></li>
+            <li><a href="lista-juegos.html" id="lista-juegos">Lista Juegos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="sugerencias.html">Sugerencias</a></li>
             <li> <buttton id="show-login"> Login </buttton> </li>
             <li> <buttton id="show-register"> Register </buttton> </li>
         </ul>
+    </div>
     </nav>
 
-    <!-- Resto del contenido de la página de lista de juegos -->
-    
-    <div class="content">
-        <h2>Lista de Juegos</h2>
+    <div class="container">
+
+        <img src="../assets/contacto.png" id="contacto">
+
+    <form method="post">
 
         <ul>
-            <li>Nombre 1</li>
-            <li>Categoría 1</li>
-            <li>Categoría 2</li>
-            <li>Link 1</li>
+
+            <li>
+                
+                <label for="name">Nombre: </label> <br>
+                <input type="text" id="Nombre" name="Nombre" />
+
+            </li>
+
+            <br>    
+
+            <li>
+
+                <label for="Correo">Correo:</label> <br>
+                <input type="email" id="Correo" name="Correo" />
+
+            </li>
+
+            <br>
+
+            <li>
+                <label for="Texto">Texto:</label> <br>
+                <textarea id="Texto" name="Texto"> </textarea> 
+            </li>
+
+            <br>
+            
+            <ol>
+                <button type="submit">Enviar</button>
+            </ol>
+
         </ul>
-        <ul>
-            <li>Counter-Strike 2</li>
-            <li>FPS</li>
-            <li>Acción</li>
-            <li><a href="https://store.steampowered.com/app/730/CounterStrike_2/">Link</a></li>
-        </ul>
-        <ul>
-            <li>PUBG: Battlegrounds</li>
-            <li>Survival</li>
-            <li>Multijugador</li>
-            <li><a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/">Link</a></li>
-        </ul>
-        <ul>
-            <li>Supermarket Simulator</li>
-            <li>Simulación</li>
-            <li>Economía</li>
-            <li><a href="https://store.steampowered.com/app/2670630/Supermarket_Simulator/">Link</a></li>
-        </ul>
-        <ul>
-            <li>Assetto Corsa</li>
-            <li>Carreras</li>
-            <li>Simulación</li>
-            <li><a href="https://store.steampowered.com/app/244210/Assetto_Corsa/">Link</a></li>
-        </ul>
+
+    </form>
     </div>
-
-    <br> <br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <div class="popup">
         <div class="close-btn"> &times; </div>
@@ -162,5 +168,7 @@
         document.querySelector(".popup").classList.remove("active");
         document.querySelector(".popup_register").classList.add("active");
     });
+
 </script>
 </html>
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+<div class="center">
+    <buttton id="show-login"> Login </buttton>    
+</div>
+
+<div class="popup">
+    <div class="close-btn"> &times; </div>
+    <div class="form">
+        <h2> Log in </h2>
+    <div class="form-element">
+        <label for="email"> Email </label>
+        <input type="text" id="email" placeholder="Introduce email" >  
+    </div>
+    <div class="form-element">
+        <label for="password"> Contraseña </label>
+        <input type="password" id="password" placeholder="Introduce la contraseña">
+     </div>
+     <div class="form-element">
+        <label for="remember-me"> Recuerdame </label>
+        <input type="checkbox" id="remember-me">  
+     </div>
+     <div class="form-element">
+        <button> Inicia sesión </button>
+     </div>
+     <div class="form-element">
+        <a href="register.html"> ¿No tienes cuenta?</a>
+     </div>
+     <div class="form-element">
+        <a href="#"> ¿Te has olvidado de la contraseña? </a>
+     </div>
+    </div>
+</div>
+</body>
+
+<script>
+    document.querySelector("#show-login").addEventListener("click", function(){
+        document.querySelector(".popup").classList.add("active");
+    });
+
+    document.querySelector(".popup .close-btn").addEventListener("click", function(){
+        document.querySelector(".popup").classList.remove("active");
+    });
+</script>
