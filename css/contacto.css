@@ -24,4 +24,7 @@ textarea {
     width: 40%;
     height: 200px;
 }
+#show-login, #show-register {
+    color: white;
+}
 

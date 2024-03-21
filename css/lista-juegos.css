@@ -68,3 +68,6 @@ a:hover {
 .navbar ul li a:hover {
     background-color: #45a049; /* Cambio de color de fondo al pasar el mouse */
 }
+#show-login, #show-register {
+    color: white;
+}

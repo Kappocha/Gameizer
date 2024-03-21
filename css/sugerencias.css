@@ -27,6 +27,7 @@ body {
     margin-left: auto; /* Mover el icono a la derecha */
 }
 
+
 .navbar ul li a {
     color: white; /* Color de texto blanco */
     text-decoration: none; /* Elimina subrayado de enlaces */
@@ -91,4 +92,7 @@ button[type="submit"]:hover {
     padding: 20px; /* Espaciado interno */
     background-color: #f9f9f9; /* Color de fondo gris claro */
     border-radius: 5px; /* Bordes redondeados */
+}
+#show-login, #show-register {
+    color: white;
 }
